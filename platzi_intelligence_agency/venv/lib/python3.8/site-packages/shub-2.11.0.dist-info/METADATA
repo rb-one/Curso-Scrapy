@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: shub
+Version: 2.11.0
+Summary: Scrapinghub Command Line Client
+Home-page: https://shub.readthedocs.io/en/stable/
+Author: Scrapinghub
+Author-email: info@scrapinghub.com
+Maintainer: Scrapinghub
+Maintainer-email: info@scrapinghub.com
+License: BSD
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Dist: click (==7.0)
+Requires-Dist: docker
+Requires-Dist: pip
+Requires-Dist: PyYAML
+Requires-Dist: retrying
+Requires-Dist: requests
+Requires-Dist: scrapinghub (>=2.3.1)
+Requires-Dist: six (>=1.7.0)
+Requires-Dist: tqdm (==4.11.2)
+Requires-Dist: toml
+
+Scrapinghub command line client
+===============================
+
+``shub`` is the Scrapinghub command line client. It allows you to deploy
+projects or dependencies, schedule spiders, and retrieve scraped data or logs
+without leaving the command line.
+
+
+Requirements
+------------
+
+* Python 2.7+ or Python 3.5+
+
+
+Installation
+------------
+
+If you have ``pip`` installed on your system, you can install ``shub`` from
+the Python Package Index::
+
+    pip install shub
+
+We also supply stand-alone binaries. You can find them in our `latest GitHub
+release`_.
+
+.. _`latest Github release`: https://github.com/scrapinghub/shub/releases/latest
+
+
+Documentation
+-------------
+
+Documentation is available online via Read the Docs:
+https://shub.readthedocs.io/, or in the ``docs`` directory.
+
+

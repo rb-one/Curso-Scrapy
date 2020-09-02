@@ -1,0 +1,13 @@
+setup.py
+platzi_intelligence_agency/__init__.py
+platzi_intelligence_agency/items.py
+platzi_intelligence_agency/middlewares.py
+platzi_intelligence_agency/pipelines.py
+platzi_intelligence_agency/settings.py
+platzi_intelligence_agency/spiders/__init__.py
+platzi_intelligence_agency/spiders/cia.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt
